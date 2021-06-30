@@ -1,0 +1,14 @@
+server:
+ port: 8080
+ 
+
+spring:
+    datasource:
+        platform: postgresql
+        url: jdbc:postgresql://localhost/iesodb
+        username: ieso
+        password: ieso
+
+mybatis:
+    configuration:
+        map-underscore-to-camel-case: true
